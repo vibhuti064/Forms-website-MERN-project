@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Forms</div>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h2>Create Account</h2>
+        <form id="signupForm">
+            <label>Name</label>
+            <input type="text" name="username" required>
+            
+            <label>Email</label>
+            <input type="email" name="email" required>
+            
+            <label>Password</label>
+            <input type="password" name="password" minlength="6" required>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
