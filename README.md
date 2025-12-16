@@ -43,8 +43,20 @@ A dynamic web application designed to demonstrate the handling of multiple form 
 
 ## 📂 Project Structure
 
-Forms-website-MERN-project/ ├── public/ # Static Frontend Files │ ├── css/ # Stylesheets (style.css) │ ├── js/ # Client-side Scripts (script.js, formHandler.js) │ ├── index.html # Homepage │ ├── contact.html # Contact Form │ ├── login.html # Login Form │ ├── signup.html # Signup Form │ ├── booking.html # Booking Form │ └── survey.html # Survey Form ├── server.js # Main Backend Entry Point (API Routes) ├── package.json # Project Metadata & Dependencies └── README.md # Project Documentation
-
+```text
+Forms-website-MERN-project/
+├── public/                 # Static Frontend Files
+│   ├── css/                # Stylesheets (style.css)
+│   ├── js/                 # Client-side Scripts (script.js, formHandler.js)
+│   ├── index.html          # Homepage
+│   ├── contact.html        # Contact Form
+│   ├── login.html          # Login Form
+│   ├── signup.html         # Signup Form
+│   ├── booking.html        # Booking Form
+│   └── survey.html         # Survey Form
+├── server.js               # Main Backend Entry Point (API Routes)
+├── package.json            # Project Metadata & Dependencies
+└── README.md               # Project Documentation
 
 ---
 
